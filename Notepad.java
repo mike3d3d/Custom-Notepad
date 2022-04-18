@@ -167,10 +167,10 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
     //Methods to satisfy WindowListener implementation
     public void windowOpened(WindowEvent a){}
     public void windowDeactivated(WindowEvent a){}
-	public void windowActivated(WindowEvent a){}
-	public void windowDeiconified(WindowEvent a){}
-	public void windowIconified(WindowEvent a){}
-	public void windowClosed(WindowEvent a){}
+    public void windowActivated(WindowEvent a){}
+    public void windowDeiconified(WindowEvent a){}
+    public void windowIconified(WindowEvent a){}
+    public void windowClosed(WindowEvent a){}
     public void windowClosing(WindowEvent a) {
 		System.exit(0);
 	}
